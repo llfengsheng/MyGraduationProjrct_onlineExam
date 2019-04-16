@@ -6,13 +6,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>智夫子 后台管理系统</title>
+	<title>后台管理系统</title>
 	<%
     	String path = request.getContextPath();
 	    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
     %>
 	<c:set var="path" value="<%=basePath %>"></c:set>
-	<link href='${path }/images/admin/admin_index.png' rel='shortcut icon' type='image/x-icon' />
  	<link href="${path }/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
 	<!-- js引入 -->
     <script src="${path }/js/jquery.js"></script>
