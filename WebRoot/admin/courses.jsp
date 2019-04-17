@@ -25,7 +25,7 @@
 					<th>科目编号</th>
 					<th>科目名称</th>
 					<th>分科情况</th>
-					<th>所属年级</th>
+					<th>所属专业</th>
 					<c:if test="${sessionScope.adminPower == 1 }">
 						<th>操作
 							&emsp;

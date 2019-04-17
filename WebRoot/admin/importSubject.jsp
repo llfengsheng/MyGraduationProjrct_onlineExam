@@ -34,16 +34,6 @@
 		<div class="col-md-8 column">
 			<form class="form-horizontal" role="form" action="dispatcherUpload" method="post" enctype="multipart/form-data">
 				<div class="form-group">
-					<label for="division" class="col-sm-2 control-label">是否分科</label>
-					<div class="col-sm-10">
-						<select id="division" class="selectpicker" name="division" id="division" data-live-search="true">
-							<option value="0">不分科</option>
-							<option value="1">文科</option>
-							<option value="2">理科</option>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
 					<label for="course" class="col-sm-2 control-label">所属科目</label>
 					<div class="col-sm-10">
 						<select id="courseId" class="selectpicker" name="courseId" id="course" data-live-search="true">
@@ -56,7 +46,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="grade" class="col-sm-2 control-label">所属年级</label>
+					<label for="grade" class="col-sm-2 control-label">所属专业</label>
 					<div class="col-sm-10">
 						<select id="gradeId" class="selectpicker" name="gradeId" id="grade" data-live-search="true">
 							<c:if test="${grades != null }">
@@ -82,7 +72,7 @@
 						<input class="from-control" style="display: none;" />
 						<span class="help-block" id="alltips">注意: 导入 Excel 文件中的第一行必须是包含 
 						<b class="tips">题目</b>|<b class="tips">答案A-D</b>|<b class="tips">正确答案</b>|<b class="tips">分值</b>|<b class="tips">试题类型</b>|<b class="tips">难易程度</b> 
-						与其列对应, 第一行标题名不得有误, 否则将无法解析; 如果是导入到新建试卷, 试卷和试题同用 分科、科目、年级信息。</span>
+						与其列对应, 第一行标题名不得有误, 否则将无法解析; 如果是导入到新建试卷, 试卷和试题同用 分科、科目、专业信息。</span>
 					</div>
 				</div>
 				<div class="form-group" id="examPaperChoose">

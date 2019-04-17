@@ -21,8 +21,8 @@
 		<table class="table table-striped table-hover table-condensed">
 			<thead>
 				<tr>
-					<th>年级编号</th>
-					<th>年级名称</th>
+					<th>专业编号</th>
+					<th>专业名称</th>
 					<c:if test="${sessionScope.adminPower == 1 }">
 						<th>操作
 							&emsp;

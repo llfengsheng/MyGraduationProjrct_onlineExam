@@ -62,7 +62,7 @@
 			</dl>
 			<dl class="system_log">
 				<dt onClick="changeImage()">基本信息<img src="${path }/images/left/select_xl01.png" /></dt>
-				<dd class="first_dd"><a href="../grades" target="right" id="1" class="handle-view">&emsp;年级管理&emsp;&emsp;&emsp;</a></dd>
+				<dd class="first_dd"><a href="../grades" target="right" id="1" class="handle-view">&emsp;专业管理&emsp;&emsp;&emsp;</a></dd>
 				<dd><a href="../courses" target="right" id="2" class="handle-view">&emsp;科目管理&emsp;&emsp;&emsp;</a></dd>
 			</dl>
 		
@@ -81,7 +81,8 @@
 				<dt>学生管理<img src="${path }/images/left/select_xl01.png" /></dt>
 				<dd class="first_dd"><a href="../students" target="right" id="5" class="handle-view">&emsp;所有学生&emsp;&emsp;&emsp;</a></dd>
 				<dd class="first_dd"><a href="${path }/admin/charts/studentExamCount.jsp" target="right" id="12" class="handle-view">&emsp;学生考试信息&emsp;&emsp;&emsp;</a></dd>
-			</dl>
+			
+ 			</dl>
 		
 			<dl class="app">
 				<dt onClick="changeImage()">试卷管理<img src="${path }/images/left/select_xl01.png" /></dt>

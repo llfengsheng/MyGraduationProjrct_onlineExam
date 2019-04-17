@@ -29,7 +29,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</parameterMap>
 	
 	<!-- 获取教师集合 -->
-	<!-- <select id="getTeachers" parameterType="com.xiyou.online.exam.po.TeacherInfo" resultMap="getTeacherResultMap">
+	 <select id="getTeachers" parameterType="com.xiyou.online.exam.po.TeacherInfo" resultMap="getTeacherResultMap">
 		SELECT a.*,b.classId,b.className FROM TeacherInfo a
 		LEFT JOIN ClassInfo b ON a.teacherId=b.teacherId
 		<where>
@@ -37,10 +37,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				isWork=#{isWork}
 			</if>
 		</where>
-	</select> -->
+	</select> 
 	
-	<!-- 使用 paramenterMap 查询 -->
-	<select id="getTeachers" parameterMap="getTeachersParameterMap" resultMap="getTeacherResultMap">
+	<!-- 使用 paramenterMap 查询 --><!-- 分页会不现实全部  因为数据库主键自增 -->
+	<!-- <select id="getTeachers" parameterMap="getTeachersParameterMap" resultMap="getTeacherResultMap">
 		SELECT a.*,b.classId,b.className FROM TeacherInfo a
 		LEFT JOIN ClassInfo b ON a.teacherId=b.teacherId
 		<where>
@@ -48,10 +48,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				isWork=#{teacher.isWork}
 			</if>
 		</where>
+		order by teacherId ASC
 		<if test="startIndex != null and pageShow != null">
 			LIMIT #{startIndex}, #{pageShow}
 		</if>
-	</select>
+	</select> -->
 	
 	<!-- 根据教师账户获取教师信息 -->
 	<select id="getTeacherByAccount" parameterType="string" resultType="com.xiyou.online.exam.po.TeacherInfo">

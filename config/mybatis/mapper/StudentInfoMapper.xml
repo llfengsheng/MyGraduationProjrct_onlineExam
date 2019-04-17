@@ -48,6 +48,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 				</if>
 			</if>
 		</where>
+		order by studentId ASC
 		<if test="startIndex != null and pageShow != null">
 			LIMIT #{startIndex}, #{pageShow}
 		</if>

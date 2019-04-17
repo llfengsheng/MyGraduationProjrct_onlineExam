@@ -26,9 +26,8 @@
 					<th>题目数量</th>
 					<th>总分</th>
 					<th>考试时长</th>
-					<th>分科情况</th>
 					<th>难易程度</th>
-					<th>所属年级</th>
+					<th>所属专业</th>
 					<th>操作
 						<button type="button" class="btn btn-xs btn-info" onclick="_iframe(0, 'admin/examPaperedit.jsp', 'examPapers')">添加</button>
 					</th>
@@ -44,17 +43,6 @@
 								<td id="examPaper-sn${ep.examPaperId }">${ep.subjectNum }</td>
 								<td id="examPaper-score${ep.examPaperId }">${ep.examPaperScore }</td>
 								<td>${ep.examPaperTime }</td>
-								<td>
-									<c:if test="${ep.division == 0 }">
-										未分科
-									</c:if>
-									<c:if test="${ep.division == 1 }">
-										文科
-									</c:if>
-									<c:if test="${ep.division == 2 }">
-										理科
-									</c:if>
-								</td>
 								<td>
 									<c:if test="${ep.examPaperEasy == 0 }">
 										简单

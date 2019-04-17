@@ -25,8 +25,8 @@
 					<th>学生姓名</th>
 					<th>学生账户</th>
 					<th>登录密码</th>
-					<th>就读班级</th>
-					<th>就读年级</th>
+					<th>所在班级</th>
+					<th>所属专业</th>
 					<c:if test="${sessionScope.adminPower == 1 }">
 						<th>操作</th>
 					</c:if>

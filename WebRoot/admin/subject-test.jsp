@@ -143,38 +143,26 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="division" class="col-sm-2 control-label">分科情况</label>
-							<div class="col-sm-5">
-								<select class="selectpicker" name="division" id="division"
-									data-live-search="true">
-									<option value="0" style="display: none;">未分科</option>
-									<option value="0">未分科</option>
-									<option value="1">文科</option>
-									<option value="2">理科</option>
-								</select>
-							</div>
-						</div>
-						<div class="form-group">
 							<label for="courseId" class="col-sm-2 control-label">所属科目</label>
 							<div class="col-sm-5">
 								<select class="selectpicker" name="course.courseId"
 									id="courseId" data-live-search="true">
-									<option value="1" style="display: none;">语文</option>
-									<option value="1">语文</option>
-									<option value="2">数学</option>
-									<option value="3">英语</option>
+									<option value="1" style="display: none;">数字信号处理</option>
+									<option value="1">信息论编码</option>
+									<option value="2">c语言</option>
+									<option value="3">模拟电子基础</option>
 								</select>
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="gradeId" class="col-sm-2 control-label">所属年级</label>
+							<label for="gradeId" class="col-sm-2 control-label">所属专业</label>
 							<div class="col-sm-5">
 								<select class="selectpicker" name="grade.gradeId" id="gradeId"
 									data-live-search="true">
-									<option value="1" style="display: none;">高一</option>
-									<option value="1">高一</option>
-									<option value="2">高二</option>
-									<option value="3">高三</option>
+									<option value="1" style="display: none;">通工</option>
+									<option value="1">通工</option>
+									<option value="2">安全</option>
+									<option value="3">电科</option>
 								</select>
 							</div>
 						</div>

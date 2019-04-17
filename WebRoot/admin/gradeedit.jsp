@@ -21,11 +21,11 @@
 	<div style="text-align: center;">
 		<form:form action="grade" method="POST" modelAttribute="grade">
 			<c:if test="${grade.gradeId != null }">
-				年级编号：<form:input path="gradeId" readonly="readonly" unselectable='on' onfocus='this.blur()' class="ipt" />
+				专业编号：<form:input path="gradeId" readonly="readonly" unselectable='on' onfocus='this.blur()' class="ipt" />
 				<input type="hidden" value="PUT" name="_method" class="ipt" />
 			</c:if>
 			<br /><br />
-			年级名称：<form:input path="gradeName" class="ipt" />
+			专业名称：<form:input path="gradeName" class="ipt" />
 			<br /><br />
 			<input type="submit" value="提交" class="sub" />		
 		</form:form>

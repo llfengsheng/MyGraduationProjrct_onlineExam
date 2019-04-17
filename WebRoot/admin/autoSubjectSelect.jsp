@@ -49,13 +49,13 @@
 							</div>
 						</div>
 						<div class="form-group">
-							 <label for="grade" class="col-sm-2 control-label">年级</label>
+							 <label for="grade" class="col-sm-2 control-label">专业</label>
 							<div class="col-sm-10">
 								<select id="slpk" class="selectpicker" name="gradeId" id="gradeId" data-live-search="true">
 									<option value="">不限</option>
-									<option value="1">高一</option>
-									<option value="2">高二</option>
-									<option value="3">高三</option>
+									<option value="1">通信与信息工程</option>
+									<option value="2">信息安全</option>
+									<option value="3">电子信息科学与技术</option>
 								</select>
 							</div>
 						</div>

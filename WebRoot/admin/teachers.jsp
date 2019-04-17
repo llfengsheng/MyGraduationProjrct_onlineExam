@@ -64,7 +64,7 @@
 								</td>
 								<td>
 									<c:if test="${teacher.isWork == 0 }">
-										否
+										暂无信息
 									</c:if>
 									<c:if test="${teacher.isWork == 1 }">
 										<a href="classes?classId=${teacher.classInfo.classId }">${teacher.classInfo.className }</a>

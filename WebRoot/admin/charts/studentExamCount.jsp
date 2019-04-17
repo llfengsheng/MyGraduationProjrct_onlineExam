@@ -29,7 +29,7 @@
 </head>
 <body>
 	<%--所有学生考试次数，后面的图表可替代 --%>
-	<%-- 
+	 
 	<div style="width: 100%; height: 500px;">
 		<div style="width: 104px; height: 100%;float: left; margin-left: 10px;">
 			<span style="display: none;" id="tid">${sessionScope.loginTeacher.teacherId }</span>
@@ -60,8 +60,8 @@
 		
 		//载入折线图
 		loadShopLine(-1);
-	</script> --%>
-	
+	</script> 
+	<%-- 
 	<div style="width: 100%; height: 500px;">
 		<div style="width: 104px; height: 100%;float: left; margin-left: 10px;">
 			<span style="display: none;" id="tid">${sessionScope.loginTeacher.teacherId }</span>
@@ -130,6 +130,6 @@
 				}
 			});
 		}
-	</script>
+	</script> --%>
 </body>
 </html>

@@ -22,7 +22,7 @@
 				<tr>
 					<th>班级编号</th>
 					<th>班级名称</th>
-					<th>所属年级</th>
+					<th>所属专业</th>
 					<th>班主任</th>
 					<c:if test="${sessionScope.adminPower == 1 }">
 						<th>操作

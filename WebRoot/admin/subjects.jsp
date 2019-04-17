@@ -40,7 +40,7 @@
 					<th>试题类型</th>
 					<th>难易程度</th>
 					<th>所属科目</th>
-					<th>所属年级</th>
+					<th>所属专业</th>
 					<c:if test="${handAdd == null }">
 						<th>操作
 							&emsp;
