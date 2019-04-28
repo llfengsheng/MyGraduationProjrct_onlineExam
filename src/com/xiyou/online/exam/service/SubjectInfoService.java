@@ -7,17 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.SubjectInfo;
 
-/**
-  *
-  * <p>Title: SubjectInfoService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-17
-  * @time: 下午4:31:48
-  * @version: 1.0
-  */
 
-@Repository
+
 public interface SubjectInfoService {
 
 	public List<SubjectInfo> getSubjects(Map<String, Object> map);

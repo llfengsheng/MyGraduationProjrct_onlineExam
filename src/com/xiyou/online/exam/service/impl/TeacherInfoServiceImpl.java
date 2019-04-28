@@ -14,10 +14,6 @@ import com.xiyou.online.exam.service.TeacherInfoService;
   *
   * <p>Title: TeacherInfoServiceImpl</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午3:16:25
-  * @version: 1.0
   */
 
 @Service

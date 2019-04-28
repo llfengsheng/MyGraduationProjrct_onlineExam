@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>在线考试系统</title>
+<title>网络考试系统</title>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
@@ -31,7 +31,7 @@
 							 <span class="icon-bar"></span>
 							 <span class="icon-bar"></span>
 							 </button>
-							 <a class="navbar-brand" href="index.jsp">在线考试</a>
+							 <a class="navbar-brand" href="index.jsp">网络考试</a>
 						</div>
 						
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

@@ -11,10 +11,6 @@ import com.xiyou.online.exam.po.ExamPlanInfo;
   *
   * <p>Title: ExamPlanInfoMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-22
-  * @time: 下午4:04:26
-  * @version: 1.0
   */
 
 @Repository

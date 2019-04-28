@@ -17,10 +17,6 @@ import com.xiyou.online.exam.po.SubjectInfo;
   *
   * <p>Title: SubjectImportUtil</p>
   * <p>Description: 试题文件导入工具类</p>
-  * @author: taohan
-  * @date: 2018-9-6
-  * @time: 下午2:42:11
-  * @version: 1.0
   */
 
 @SuppressWarnings("all")
@@ -44,7 +40,7 @@ public class SubjectImportUtil {
 	 * @param division
 	 * @return
 	 */
-	public static List<SubjectInfo> parseSubjectExcel(String filePath, Integer courseId, Integer gradeId, Integer division) {
+	public static List<SubjectInfo> parseSubjectExcel(String filePath, Integer courseId, Integer gradeId) {
 		List<SubjectInfo> subjects = new LinkedList<SubjectInfo>();
 		try {
 			//读取工作本
@@ -89,9 +85,7 @@ public class SubjectImportUtil {
 					subject.setSubjectEasy(2);						
 				}
 				subject.setCourse(new CourseInfo(courseId));
-				subject.setGrade(new GradeInfo(gradeId));
-				subject.setDivision(division);
-				
+				subject.setGrade(new GradeInfo(gradeId));				
 				subjects.add(subject);
 			}
 			

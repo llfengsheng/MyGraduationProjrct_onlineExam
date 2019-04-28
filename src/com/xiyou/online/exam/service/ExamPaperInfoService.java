@@ -7,17 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.ExamPaperInfo;
 
-/**
-  *
-  * <p>Title: ExamPaperInfoService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-16
-  * @time: 下午4:31:32
-  * @version: 1.0
-  */
 
-@Repository
+
 public interface ExamPaperInfoService {
 
 	public List<ExamPaperInfo> getExamPapers(Map<String, Object> map);

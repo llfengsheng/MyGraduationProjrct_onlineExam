@@ -24,7 +24,6 @@
 				<tr>
 					<th>科目编号</th>
 					<th>科目名称</th>
-					<th>分科情况</th>
 					<th>所属专业</th>
 					<c:if test="${sessionScope.adminPower == 1 }">
 						<th>操作
@@ -41,17 +40,17 @@
 							<tr>
 								<td>${course.courseId }</td>
 								<td>${course.courseName }</td>
-								<td>
+								<%-- <td>
 									<c:if test="${course.division == 0 }">
-										暂未分科
+										课程性质
 									</c:if>
 									<c:if test="${course.division == 1 }">
-										文科
+										必修
 									</c:if>
 									<c:if test="${course.division == 2 }">
-										理科
+										选修
 									</c:if>
-								</td>
+								</td> --%>
 								<td>
 									${course.grade.gradeName }
 								</td>							

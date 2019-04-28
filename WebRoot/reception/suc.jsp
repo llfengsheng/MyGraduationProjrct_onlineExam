@@ -14,11 +14,10 @@
 	<c:set var="path" value="<%=basePath %>"></c:set>
  	<link href="${path }/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
 </head>
-<body>
+<body style="background: url(images/reception/suc.jpg)">
 	<div style="width:100%;height:100%;text-align: center;">
 		<h2>${success }</h2>
 	</div>
-
 	<!-- js引入 -->
     <script src="${path }/js/jquery.js"></script>
     <script src="${path }/js/bootstrap/bootstrap.min.js"></script>

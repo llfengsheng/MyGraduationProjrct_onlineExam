@@ -21,10 +21,6 @@ import com.xiyou.online.exam.po.ClassInfo;
   *
   * <p>Title: StudentCount</p>
   * <p>Description: (年级下/所有)班级的学生总量 相关图表Json数据生成</p>
-  * @author: taohan
-  * @date: 2018-9-17
-  * @time: 下午7:03:13
-  * @version: 1.0
   */
 
 @Repository

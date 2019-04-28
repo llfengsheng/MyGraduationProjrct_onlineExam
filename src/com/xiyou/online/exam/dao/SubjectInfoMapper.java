@@ -7,15 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.SubjectInfo;
 
-/**
-  *
-  * <p>Title: SubjectInfoMapper</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-17
-  * @time: 下午4:30:09
-  * @version: 1.0
-  */
 
 @Repository
 public interface SubjectInfoMapper {

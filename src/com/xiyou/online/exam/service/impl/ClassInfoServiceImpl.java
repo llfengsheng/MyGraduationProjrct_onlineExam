@@ -14,10 +14,6 @@ import com.xiyou.online.exam.service.ClassInfoService;
   *
   * <p>Title: ClassInfoServiceImpl</p>
   * <p>Description: 班级信息 Service 实现类</p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午2:16:32
-  * @version: 1.0
   */
 
 @Service

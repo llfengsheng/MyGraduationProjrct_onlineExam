@@ -11,10 +11,6 @@ import com.xiyou.online.exam.po.ExamPaperInfo;
   *
   * <p>Title: ExamPaperInfoMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-16
-  * @time: 下午4:28:09
-  * @version: 1.0
   */
 
 @Repository

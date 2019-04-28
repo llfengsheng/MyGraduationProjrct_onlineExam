@@ -19,10 +19,6 @@ import com.xiyou.online.exam.service.GradeInfoService;
   *
   * <p>Title: ExamPaperInfoHandler</p>
   * <p>Description: 试卷</p>
-  * @author: taohan
-  * @date: 2018-8-16
-  * @time: 下午4:35:43
-  * @version: 1.0
   */
 
 @Controller
@@ -43,7 +39,7 @@ public class ExamPaperInfoHandler {
 	
 	/**
 	 * 获取试卷信息
-	 * @param gradeId 年级编号
+	 * @param gradeId 专业编号
 	 * @param startPage 起始页 默认第一页
 	 * @param pageShow 页容量 默认10
 	 * @return
@@ -124,7 +120,6 @@ public class ExamPaperInfoHandler {
 			@RequestParam("subjectNum") Integer subjectNum,
 			@RequestParam("examPaperScore") Integer examPaperScore,
 			@RequestParam("examPaperTime") Integer examPaperTime,
-			@RequestParam("division") Integer division,
 			@RequestParam("examPaperEasy") Integer examPaperEasy,
 			@RequestParam("gradeId") Integer gradeId) {
 
@@ -133,7 +128,6 @@ public class ExamPaperInfoHandler {
 		examPaper.setSubjectNum(subjectNum);
 		examPaper.setExamPaperScore(examPaperScore);
 		examPaper.setExamPaperTime(examPaperTime);
-		examPaper.setDivision(division);
 		examPaper.setExamPaperEasy(examPaperEasy);
 		grade.setGradeId(gradeId);
 		examPaper.setGrade(grade);

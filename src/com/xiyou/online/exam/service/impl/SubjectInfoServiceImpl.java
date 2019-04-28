@@ -14,10 +14,6 @@ import com.xiyou.online.exam.service.SubjectInfoService;
   *
   * <p>Title: SubjectInfoServiceImpl</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-17
-  * @time: 下午4:32:18
-  * @version: 1.0
   */
 
 @Service

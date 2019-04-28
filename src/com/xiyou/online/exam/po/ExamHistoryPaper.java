@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
   *
   * <p>Title: ExamHistoryPaper</p>
   * <p>Description: 扩展类，用于封装历史考试信息、试卷信息、考试时间</p>
-  * @author: taohan
-  * @date: 2018-8-29
-  * @time: 下午4:41:22
-  * @version: 1.0
   */
 
 @Component

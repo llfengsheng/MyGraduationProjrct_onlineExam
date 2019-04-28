@@ -14,10 +14,6 @@ import com.xiyou.online.exam.service.ExamSubjectMiddleInfoService;
   *
   * <p>Title: ExamSubjectMiddleInfoServiceImpl</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-20
-  * @time: 下午4:17:55
-  * @version: 1.0
   */
 
 @Service

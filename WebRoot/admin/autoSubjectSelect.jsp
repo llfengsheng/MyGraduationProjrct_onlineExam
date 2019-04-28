@@ -42,9 +42,10 @@
 							<div class="col-sm-10">
 								<select id="slpk" class="selectpicker" name="courseId" id="courseId" data-live-search="true">
 									<option value="">不限</option>
-									<option value="1">语文</option>
-									<option value="2">数学</option>
-									<option value="3">英语</option>
+									<option value="1">数字信号处理</option>
+									<option value="2">信息论编码</option>
+									<option value="3">c语言</option>
+									<option value="4">模拟电子信息基础</option>
 								</select>
 							</div>
 						</div>

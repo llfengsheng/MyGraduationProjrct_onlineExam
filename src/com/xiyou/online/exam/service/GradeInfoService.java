@@ -6,17 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.GradeInfo;
 
-/**
-  *
-  * <p>Title: GradeInfoService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-14
-  * @time: 上午9:56:49
-  * @version: 1.0
-  */
 
-@Repository
 public interface GradeInfoService {
 
 	//获取所有年级

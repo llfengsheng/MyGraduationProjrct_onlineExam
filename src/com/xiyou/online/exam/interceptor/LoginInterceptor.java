@@ -11,10 +11,6 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
   *
   * <p>Title: LoginInterceptor</p>
   * <p>Description: 登录拦截器</p>
-  * @author: taohan
-  * @date: 2018-8-17
-  * @time: 下午3:02:43
-  * @version: 1.0
   */
 
 public class LoginInterceptor extends HandlerInterceptorAdapter {

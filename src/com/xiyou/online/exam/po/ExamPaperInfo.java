@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
   *
   * <p>Title: ExamPaperInfo</p>
   * <p>Description: 试卷实体</p>
-  * @author: taohan
-  * @date: 2018-8-16
-  * @time: 下午1:46:53
-  * @version: 1.0
   */
 
 @Component

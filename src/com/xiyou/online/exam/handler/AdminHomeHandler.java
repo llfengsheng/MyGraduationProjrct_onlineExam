@@ -19,10 +19,6 @@ import com.xiyou.online.exam.service.TeacherInfoService;
   *
   * <p>Title: AdminHomeHandler</p>
   * <p>Description: 后台首页相关</p>
-  * @author: taohan
-  * @date: 2018-9-18
-  * @time: 下午1:59:22
-  * @version: 1.0
   */
 
 @Controller

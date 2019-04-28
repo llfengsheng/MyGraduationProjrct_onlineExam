@@ -15,10 +15,6 @@ import com.xiyou.online.exam.service.ExamHistoryPaperService;
   *
   * <p>Title: ExamHistoryInfoHandler</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-9-5
-  * @time: 下午4:51:48
-  * @version: 1.0
   */
 
 @Controller

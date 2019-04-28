@@ -9,10 +9,6 @@ import org.springframework.stereotype.Component;
   *
   * <p>Title: SubjectInfo</p>
   * <p>Description: 试题实体类</p>
-  * @author: taohan
-  * @date: 2018-8-17
-  * @time: 下午3:47:45
-  * @version: 1.0
   */
 
 @Component

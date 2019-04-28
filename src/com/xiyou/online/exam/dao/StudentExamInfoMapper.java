@@ -10,10 +10,6 @@ import com.xiyou.online.exam.po.StudentExamInfo;
   *
   * <p>Title: StudentExamInfoMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-9-19
-  * @time: 上午10:07:04
-  * @version: 1.0
   */
 
 @Repository

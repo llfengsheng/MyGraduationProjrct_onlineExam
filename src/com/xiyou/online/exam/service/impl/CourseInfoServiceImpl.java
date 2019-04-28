@@ -13,10 +13,6 @@ import com.xiyou.online.exam.service.CourseInfoService;
   *
   * <p>Title: CourseInfoServiceImpl</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-15
-  * @time: 下午5:30:48
-  * @version: 1.0
   */
 
 @Service

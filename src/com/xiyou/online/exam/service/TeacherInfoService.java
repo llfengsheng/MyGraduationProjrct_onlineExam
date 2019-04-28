@@ -7,17 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.TeacherInfo;
 
-/**
-  *
-  * <p>Title: TeacherInfoService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午3:15:35
-  * @version: 1.0
-  */
 
-@Repository
+
 public interface TeacherInfoService {
 
 	//获取教师集合

@@ -10,10 +10,6 @@ import com.xiyou.online.exam.po.GradeInfo;
   *
   * <p>Title: GradeInfoMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-14
-  * @time: 上午9:55:46
-  * @version: 1.0
   */
 
 @Repository

@@ -6,17 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.StudentExamInfo;
 
-/**
-  *
-  * <p>Title: StudentExamInfoService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-9-19
-  * @time: 上午10:08:46
-  * @version: 1.0
-  */
 
-@Repository
+
 public interface StudentExamInfoService {
 
 	//后台教师根据查看某一班级下所有学生考试数量

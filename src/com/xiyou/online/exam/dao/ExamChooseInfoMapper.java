@@ -11,10 +11,6 @@ import com.xiyou.online.exam.po.ExamChooseInfo;
   *
   * <p>Title: ExamChooseInfoMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-25
-  * @time: 上午10:33:21
-  * @version: 1.0
   */
 
 @Repository

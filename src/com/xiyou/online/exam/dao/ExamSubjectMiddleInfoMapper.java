@@ -11,10 +11,6 @@ import com.xiyou.online.exam.po.ExamSubjectMiddleInfo;
   *
   * <p>Title: ExamSubjectMiddleInfoMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-20
-  * @time: 下午4:15:55
-  * @version: 1.0
   */
 
 @Repository

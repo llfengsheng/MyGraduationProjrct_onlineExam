@@ -12,10 +12,6 @@ import com.xiyou.online.exam.po.ExamHistoryPaper;
   *
   * <p>Title: ExamHistoryPaperMapper</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-29
-  * @time: 下午4:44:07
-  * @version: 1.0
   */
 
 @Repository

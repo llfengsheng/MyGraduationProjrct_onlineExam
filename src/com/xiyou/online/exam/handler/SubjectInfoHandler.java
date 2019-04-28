@@ -39,10 +39,6 @@ import com.xiyou.online.exam.util.SubjectImportUtil;
   *
   * <p>Title: SubjectInfoHandler</p>
   * <p>Description: 试题</p>
-  * @author: taohan
-  * @date: 2018-8-17
-  * @time: 下午4:33:48
-  * @version: 1.0
   */
 
 @Controller
@@ -223,7 +219,7 @@ public class SubjectInfoHandler {
 		ModelAndView model = new ModelAndView("admin/importSubject");
 		//获取所有科目
 		List<CourseInfo> courses = courseInfoService.getCourses(null);
-		//获取所有年级
+		//获取所有专业
 		List<GradeInfo> grades = gradeInfoService.getGrades();
 		//获取所有试卷名称
 		List<ExamPaperInfo> examPapers = examPaperInfoService.getExamPapersClear();
@@ -244,7 +240,6 @@ public class SubjectInfoHandler {
 	 */
 	@RequestMapping(value="/dispatcherUpload", method=RequestMethod.POST)
 	public ModelAndView dispatcherUpload(HttpServletRequest request,
-			@RequestParam("division") Integer division,
 			@RequestParam("courseId") Integer courseId,
 			@RequestParam("gradeId") Integer gradeId,
 			@RequestParam("examPaperId") Integer examPaperId,
@@ -261,7 +256,7 @@ public class SubjectInfoHandler {
 			savePath = saveUploadFile(excel, request.getRealPath("/WEB-INF/upload"));
 			
 			/** 解析上传 excel 文件, 得到试题集合 */
-			List<SubjectInfo> subjects = SubjectImportUtil.parseSubjectExcel(savePath, courseId, gradeId, division);
+			List<SubjectInfo> subjects = SubjectImportUtil.parseSubjectExcel(savePath, courseId, gradeId);
 			
 			/** 只添加试题 */
 			if ("0".equals(importOption)) {
@@ -282,7 +277,6 @@ public class SubjectInfoHandler {
 				examPaper.setExamPaperTime(examPaperTime);
 				grade.setGradeId(gradeId);
 				examPaper.setGrade(grade);
-				examPaper.setDivision(division);
 				int row = examPaperInfoService.isAddExamPaper(examPaper);
 				logger.info("添加的新试卷 编号 "+examPaper.getExamPaperId());
 				

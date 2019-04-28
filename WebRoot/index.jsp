@@ -8,13 +8,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>在线考试系统</title>
 </head>
-<body style="background-color: #EEEEEE;">
-who are you?
-	<li>
-		<a id="students_index" " href="../OnlineExam/index1.jsp">我是学生</a>
-	</li>
-	<li>
-		 <a id="admin_index"  href="../OnlineExam/admin/index.jsp">我是老师</a>
-	</li>
+<body ><!--style="background: url(images/reception/timg.gif)"  -->
+<div style="width: 100%; height: 100%;">
+
+	<div style="width:200px; height:120px; padding:250px 600px 500px ;border:none;background:url(images/reception/timg.gif)">
+		<a id="students_index" href="../OnlineExam/index1.jsp">我是学生</a>
+		<a id="admin_index"  href="../OnlineExam/admin/index.jsp">我是老师</a>
+	</div>
+</div>
 </body>
 </html>

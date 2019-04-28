@@ -16,7 +16,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result column="examPaperScore" property="examPaperScore" />
 	</resultMap>
 	
-	<!-- 后台教师根据查看某一班级下所有学生考试数量 -->
+	<!-- 后台教师根据查看某一专业下所有学生考试数量 -->
 	<select id="getStudentExamCountByClassId" parameterType="int" resultMap="baseQueryResultMap">
 		SELECT
 		a.studentId,a.studentName,COUNT(historyId) `examSum`

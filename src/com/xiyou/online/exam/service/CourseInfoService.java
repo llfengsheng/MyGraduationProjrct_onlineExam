@@ -6,17 +6,8 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.CourseInfo;
 
-/**
-  *
-  * <p>Title: CourseInfoService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-15
-  * @time: 下午5:30:21
-  * @version: 1.0
-  */
 
-@Repository
+
 public interface CourseInfoService {
 
 	public List<CourseInfo> getCourses(CourseInfo course);

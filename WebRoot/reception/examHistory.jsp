@@ -37,7 +37,7 @@
 												得分: ${ehp.examScore }
 											</p>
 											<p class="beginTime">考试时间: 
-												<c:if test="${ehp.beginTime == null }"></c:if>
+												<c:if test="${ehp.beginTime == null }">暂未定义</c:if>
 												<c:if test="${ehp.beginTime != null }">${ehp.beginTime }</c:if>
 											</p>
 											<p>

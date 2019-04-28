@@ -8,17 +8,8 @@ import org.springframework.stereotype.Repository;
 import com.xiyou.online.exam.po.ExamHistoryInfo;
 import com.xiyou.online.exam.po.ExamHistoryPaper;
 
-/**
-  *
-  * <p>Title: ExamHistoryPaperService</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-29
-  * @time: 下午4:45:27
-  * @version: 1.0
-  */
 
-@Repository
+
 public interface ExamHistoryPaperService {
 
 	//查询考试历史信息，针对前台学生查询

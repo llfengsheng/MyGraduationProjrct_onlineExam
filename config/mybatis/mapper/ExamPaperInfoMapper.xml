@@ -56,14 +56,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 	<!-- 添加试卷 -->
 	<insert id="isAddExamPaper" parameterType="com.xiyou.online.exam.po.ExamPaperInfo" useGeneratedKeys="true" keyProperty="examPaperId">
-		INSERT INTO ExamPaperInfo VALUES(NULL, #{examPaperName}, #{subjectNum}, #{examPaperTime}, #{examPaperScore}, #{grade.gradeId}, #{division}, #{examPaperEasy})
+		INSERT INTO ExamPaperInfo VALUES(NULL, #{examPaperName}, #{subjectNum}, #{examPaperTime},#{examPaperScore},#{grade.gradeId}, #{examPaperEasy})
 	</insert>
 	
 	<!-- 修改试卷信息 -->
 	<update id="isUpdateExamPaper" parameterType="com.xiyou.online.exam.po.ExamPaperInfo">
 		UPDATE ExamPaperInfo SET
-		examPaperName=#{examPaperName}, subjectNum=#{subjectNum}, examPaperTime=#{examPaperTime},
-		examPaperScore=#{examPaperScore}, division=#{division}, examPaperEasy=#{examPaperEasy}, gradeId=#{grade.gradeId}
+		examPaperName=#{examPaperName}, subjectNum=#{subjectNum}, examPaperTime=#{examPaperTime},examPaperScore=#{examPaperScore}
+		, examPaperEasy=#{examPaperEasy}, gradeId=#{grade.gradeId}
 		WHERE examPaperId=#{examPaperId}
 	</update>
 	

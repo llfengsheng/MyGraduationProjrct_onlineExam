@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
   *
   * <p>Title: TeacherInfo</p>
   * <p>Description: 教师实体类</p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午2:02:46
-  * @version: 1.0
   */
 
 @Component

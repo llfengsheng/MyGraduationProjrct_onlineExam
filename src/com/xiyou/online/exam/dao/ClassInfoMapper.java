@@ -12,10 +12,6 @@ import com.xiyou.online.exam.po.ClassInfo;
   *
   * <p>Title: ClassInfoMapper</p>
   * <p>Description: 班级信息代理接口</p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午2:08:29
-  * @version: 1.0
   */
 
 @Repository

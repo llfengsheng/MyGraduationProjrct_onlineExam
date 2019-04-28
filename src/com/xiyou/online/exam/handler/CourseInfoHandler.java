@@ -17,10 +17,6 @@ import com.xiyou.online.exam.service.GradeInfoService;
   *
   * <p>Title: CourseInfoHandler</p>
   * <p>Description: 科目</p>
-  * @author: taohan
-  * @date: 2018-8-15
-  * @time: 下午5:32:03
-  * @version: 1.0
   */
 
 @Controller

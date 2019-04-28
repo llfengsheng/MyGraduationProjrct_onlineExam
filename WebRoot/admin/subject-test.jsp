@@ -67,7 +67,7 @@
 			<li class="active"><a href="#radioSubject" data-toggle="tab">单选题</a>
 			</li>
 			<li><a href="#checkSubject" data-toggle="tab">多选题</a></li>
-			<li><a href="#answerSubject" data-toggle="tab">简答题</a></li>
+			<li><a href="#answerSubject" data-toggle="tab">填空题</a></li>
 		</ul>
 		<div id="editor-content" class="tab-content">
 			<!-- 单选题 -->
@@ -148,9 +148,11 @@
 								<select class="selectpicker" name="course.courseId"
 									id="courseId" data-live-search="true">
 									<option value="1" style="display: none;">数字信号处理</option>
-									<option value="1">信息论编码</option>
-									<option value="2">c语言</option>
-									<option value="3">模拟电子基础</option>
+									<option value="1">数字信号处理</option>
+									<option value="2">信息论编码</option>
+									<option value="3">c语言</option>
+									<option value="4">模拟电子基础</option>
+									
 								</select>
 							</div>
 						</div>

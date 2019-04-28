@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
   *
   * <p>Title: ClassInfo</p>
   * <p>Description: 班级实体类</p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午2:06:14
-  * @version: 1.0
   */
 
 @Component

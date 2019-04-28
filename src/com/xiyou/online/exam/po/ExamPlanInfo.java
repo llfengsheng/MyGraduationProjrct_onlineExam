@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
   *
   * <p>Title: ExamPlanInfo</p>
   * <p>Description: 考试安排记录</p>
-  * @author: taohan
-  * @date: 2018-8-22
-  * @time: 下午2:55:38
-  * @version: 1.0
   */
 
 @Component

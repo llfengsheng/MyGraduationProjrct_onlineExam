@@ -24,10 +24,6 @@ import com.xiyou.online.exam.service.StudentInfoService;
   *
   * <p>Title: StudentExamInfoHandler</p>
   * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-9-19
-  * @time: 上午10:10:33
-  * @version: 1.0
   */
 
 @Controller

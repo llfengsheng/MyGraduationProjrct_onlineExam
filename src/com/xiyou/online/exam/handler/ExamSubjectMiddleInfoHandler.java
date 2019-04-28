@@ -34,10 +34,6 @@ import com.xiyou.online.exam.service.SubjectInfoService;
   *
   * <p>Title: ExamSubjectMiddleInfoHandler</p>
   * <p>Description: 试卷试题--关联</p>
-  * @author: taohan
-  * @date: 2018-8-20
-  * @time: 下午4:21:05
-  * @version: 1.0
   */
 
 @Controller

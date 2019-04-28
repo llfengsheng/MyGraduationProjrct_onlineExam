@@ -36,8 +36,6 @@
 								</u>
 							&emsp;
 							得分：<u>${score }</u>
-							&emsp;
-							考试时间：<u>暂未定义</u>
 						</p>
 					</div>
 					<c:choose>

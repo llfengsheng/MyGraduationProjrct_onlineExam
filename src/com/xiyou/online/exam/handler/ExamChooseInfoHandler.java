@@ -18,10 +18,6 @@ import com.xiyou.online.exam.service.ExamChooseInfoService;
   *
   * <p>Title: ExamChooseInfoHandler</p>
   * <p>Description: 试卷试题答案选择</p>
-  * @author: taohan
-  * @date: 2018-8-25
-  * @time: 上午10:36:41
-  * @version: 1.0
   */
 
 @Controller

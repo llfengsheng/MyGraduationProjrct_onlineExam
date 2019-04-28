@@ -7,15 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import com.xiyou.online.exam.po.TeacherInfo;
 
-/**
-  *
-  * <p>Title: TeacherInfoMapper</p>
-  * <p>Description: </p>
-  * @author: taohan
-  * @date: 2018-8-13
-  * @time: 下午3:14:13
-  * @version: 1.0
-  */
 
 @Repository
 public interface TeacherInfoMapper {
