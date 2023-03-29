@@ -3,9 +3,9 @@
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.taohan.online.exam.dao.SubjectInfoMapper">
+<mapper namespace="com.xiyou.online.exam.dao.SubjectInfoMapper">
 	
-	<resultMap type="com.taohan.online.exam.po.SubjectInfo" id="querySubjects">
+	<resultMap type="com.xiyou.online.exam.po.SubjectInfo" id="querySubjects">
 		<id column="subjectId" property="subjectId"/>
 		<result column="subjectName" property="subjectName"/>
 		<result column="optionA" property="optionA"/>
@@ -16,14 +16,13 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		<result column="subjectScore" property="subjectScore"/>	
 		<result column="subjectType" property="subjectType"/>
 		<result column="subjectEasy" property="subjectEasy"/>
-		<result column="division" property="division"/>
 		<!-- 科目 -->
-		<association property="course" javaType="com.taohan.online.exam.po.CourseInfo">
+		<association property="course" javaType="com.xiyou.online.exam.po.CourseInfo">
 			<id column="courseId" property="courseId"/>
 			<result column="courseName" property="courseName"/>
 		</association>
 		<!-- 年级 -->
-		<association property="grade" javaType="com.taohan.online.exam.po.GradeInfo">
+		<association property="grade" javaType="com.xiyou.online.exam.po.GradeInfo">
 			<id column="gradeId" property="gradeId"/>
 			<result column="gradeName" property="gradeName"/>
 		</association>
@@ -58,8 +57,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			</if>
 		</where>
 		<if test="startIndex != null and pageShow != null">
+			order by subjectId ASC
 			LIMIT #{startIndex}, #{pageShow}
 		</if>
+		
 	</select>
 	
 	<!-- 根据试题编号获取试题 -->
@@ -75,21 +76,21 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	
 	<!-- 添加试题 -->
-	<insert id="isAddSubject" parameterType="com.taohan.online.exam.po.SubjectInfo" useGeneratedKeys="true" keyProperty="subjectId">
+	<insert id="isAddSubject" parameterType="com.xiyou.online.exam.po.SubjectInfo" useGeneratedKeys="true" keyProperty="subjectId">
 		INSERT INTO SubjectInfo VALUES
-		(NULL, #{subjectName}, #{optionA}, #{optionB}, #{optionC}, #{optionD}, #{rightResult}, #{subjectScore}, #{subjectType}, #{course.courseId}, #{grade.gradeId}, #{subjectEasy}, #{division})
+		(NULL, #{subjectName}, #{optionA}, #{optionB}, #{optionC}, #{optionD}, #{rightResult}, #{subjectType}, #{course.courseId}, #{grade.gradeId}, #{subjectEasy}, #{subjectScore})
 	</insert>
 	
 	<!-- 修改试题 -->
-	<update id="isUpdateSubject" parameterType="com.taohan.online.exam.po.SubjectInfo">
+	<update id="isUpdateSubject" parameterType="com.xiyou.online.exam.po.SubjectInfo">
 		UPDATE SubjectInfo SET 
-		subjectName=#{subjectName}, optionA=#{optionA}, optionB=#{optionB}, optionC=#{optionC}, optionD=#{optionD}, rightResult=#{rightResult}, subjectScore=#{subjectScore}, subjectType=#{subjectType}, courseId=#{course.courseId}, gradeId=#{grade.gradeId}, subjectEasy=#{subjectEasy}, division=#{division}
+		subjectName=#{subjectName}, optionA=#{optionA}, optionB=#{optionB}, optionC=#{optionC}, optionD=#{optionD}, rightResult=#{rightResult}, subjectType=#{subjectType}, courseId=#{course.courseId}, gradeId=#{grade.gradeId}, subjectEasy=#{subjectEasy}, subjectScore=#{subjectScore}
 		WHERE subjectId=#{subjectId}
 	</update>
 	
 	<!-- 删除试题 -->
 	<delete id="isDelSubject" parameterType="int">
-		DELETE FROM SubjectInfo WHERE subjectId=#{subjectId}
+		DELETE FROM SubjectInfo WHERE subjectId=#{subjectId};
 	</delete>
 	
 	<!-- 批量添加试题 -->
@@ -97,7 +98,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		INSERT INTO SubjectInfo VALUES
 		<if test="subjects != null">
 			<foreach collection="subjects" item="subject" close=";" separator=",">
-				(NULL, #{subject.subjectName}, #{subject.optionA}, #{subject.optionB}, #{subject.optionC}, #{subject.optionD}, #{subject.rightResult}, #{subject.subjectScore}, #{subject.subjectType}, #{subject.course.courseId}, #{subject.grade.gradeId}, #{subject.subjectEasy}, #{subject.division})
+				(NULL, #{subject.subjectName}, #{subject.optionA}, #{subject.optionB}, #{subject.optionC}, #{subject.optionD}, #{subject.rightResult}, #{subject.subjectType}, #{subject.course.courseId}, #{subject.grade.gradeId}, #{subject.subjectEasy}, #{subject.subjectScore})
 			</foreach>
 		</if>
 	</insert>

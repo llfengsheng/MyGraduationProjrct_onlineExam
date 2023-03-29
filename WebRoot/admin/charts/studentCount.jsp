@@ -32,9 +32,9 @@
 	<div style="width: 100%; height: 100%;">
 		<div style="width: 100px; height: 100%;float: left;">
 			<ul>
-				<li><a onclick="loadShopLine(1)">高一</a></li>
-				<li><a onclick="loadShopLine(2)">高二</a></li>
-				<li><a onclick="loadShopLine(3)">高三</a></li>
+				<li><a onclick="loadShopLine(1)">通工</a></li>
+				<li><a onclick="loadShopLine(2)">安全</a></li>
+				<li><a onclick="loadShopLine(3)">电科</a></li>
 				<li><a onclick="loadShopLine(-1)">全部</a></li>
 			</ul>
 		</div>

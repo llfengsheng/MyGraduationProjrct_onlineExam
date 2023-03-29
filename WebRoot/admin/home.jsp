@@ -54,10 +54,9 @@
 		<i class="icon-ok green"></i>
 		欢迎使用
 		<strong>
-			智夫子后台管理系统
-			<small>(v2.0)</small>
+			后台管理系统
 		</strong>
-		, 努力做教育服务
+		,您认真工作的样子真的很迷人
 	</div>
 	<div class="state-overview clearfix">
 		<div class="col-lg-3 col-sm-5 totalDiv">

@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>年级信息</title>
+	<title>专业信息</title>
 	<%
     	String path = request.getContextPath();
 	    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
@@ -21,8 +21,8 @@
 		<table class="table table-striped table-hover table-condensed">
 			<thead>
 				<tr>
-					<th>年级编号</th>
-					<th>年级名称</th>
+					<th>专业编号</th>
+					<th>专业名称</th>
 					<c:if test="${sessionScope.adminPower == 1 }">
 						<th>操作
 							&emsp;

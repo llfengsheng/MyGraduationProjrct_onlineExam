@@ -38,8 +38,8 @@
 								<input type="hidden" value="1" name="isupdate" id="isupdate" />
 							</div>
 						</c:if>
-						<div class="form-group">
-							 <label for="division" class="col-sm-2 control-label">分科情况</label>
+						<%--  <div class="form-group">
+							 <label for="division" class="col-sm-2 control-label">课程性质</label>
 							<div class="col-sm-5">
 								<select class="selectpicker" name="division" id="division" data-live-search="true">
 										<c:if test="${course.division == null }">
@@ -47,23 +47,23 @@
 										</c:if>
 										<option value="${course.division }" style="display: none;">
 											<c:if test="${course.division == 0 }">
-												暂未分科
+												暂未区分
 											</c:if>
 											<c:if test="${course.division == 1 }">
-												文科
+												必修
 											</c:if>
 											<c:if test="${course.division == 2 }">
-												理科
+												选修
 											</c:if>
 										</option>
-										<option value="0">不分科</option>
-										<option value="1">文科</option>
-										<option value="2">理科</option>
+										<option value="0">暂未区分</option>
+										<option value="1">必修</option>
+										<option value="2">选修</option>
 								</select>
-							</div>
-						</div>
+							</div> 
+						</div> --%>
 						<div class="form-group">
-							 <label for="gradeId" class="col-sm-2 control-label">所属年级</label>
+							 <label for="gradeId" class="col-sm-2 control-label">所属专业</label>
 							<div class="col-sm-5">
 								<select class="selectpicker" name="gradeId" id="gradeId" data-live-search="true">
 										<c:if test="${course != null }">

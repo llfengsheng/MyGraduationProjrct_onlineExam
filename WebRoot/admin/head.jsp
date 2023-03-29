@@ -22,7 +22,7 @@
  	</style>
 </head>
 <body>
-	<div style="width: 100%; height: 98px; background-color: #438EB9;">
+	<div style="width: 100%; height: 98px; background-color: #014A95;">
 		<div style="float: left; width: 380px; height: 100%;line-height:80px;margin-left: -40px;">
 			<a href="index.jsp" target="_top">
 				<img src="${path }/images/reception/logo_1.png" alt="WiseMan logo" style="width: 95%; height: 100%;" />

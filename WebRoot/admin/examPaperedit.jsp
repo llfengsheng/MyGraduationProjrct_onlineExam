@@ -39,30 +39,6 @@
 							</div>
 						</c:if>
 						<div class="form-group">
-							 <label for="division" class="col-sm-2 control-label">分科情况</label>
-							<div class="col-sm-5">
-								<select class="selectpicker" name="division" id="division" data-live-search="true">
-										<c:if test="${examPaper.division == null }">
-											<option value="0" style="display: none;">--请选择--</option>
-										</c:if>
-										<option value="${examPaper.division }" style="display: none;">
-											<c:if test="${examPaper.division == 0 }">
-												暂未分科
-											</c:if>
-											<c:if test="${examPaper.division == 1 }">
-												文科
-											</c:if>
-											<c:if test="${examPaper.division == 2 }">
-												理科
-											</c:if>
-										</option>
-										<option value="0">不分科</option>
-										<option value="1">文科</option>
-										<option value="2">理科</option>
-								</select>
-							</div>
-						</div>
-						<div class="form-group">
 							 <label for="examPaperEasy" class="col-sm-2 control-label">难易程度</label>
 							<div class="col-sm-5">
 								<select class="selectpicker" name="examPaperEasy" id="examPaperEasy" data-live-search="true">
@@ -87,7 +63,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							 <label for="gradeId" class="col-sm-2 control-label">所属年级</label>
+							 <label for="gradeId" class="col-sm-2 control-label">所属专业</label>
 							<div class="col-sm-5">
 								<select class="selectpicker" name="gradeId" id="gradeId" data-live-search="true">
 									<c:if test="${examPaper != null }">
@@ -100,9 +76,9 @@
 											--请选择--
 										</option>
 									</c:if>
-									<option value="1">高一</option>
-									<option value="2">高二</option>
-									<option value="3">高三</option>
+									<option value="1">通工</option>
+									<option value="2">安全</option>
+									<option value="3">电科</option>
 								</select>
 							</div>
 						</div>

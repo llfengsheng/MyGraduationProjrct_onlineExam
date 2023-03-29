@@ -28,7 +28,7 @@
 			</c:if>
 			<b class="form-title">班级名称：</b><form:input path="className" class="ipt" />
 			<br /><br />
-			<b class="form-title">所属年级：</b><form:select path="grade.gradeId" items="${grades }"
+			<b class="form-title">所属专业：</b><form:select path="grade.gradeId" items="${grades }"
 				itemLabel="gradeName" itemValue="gradeId" class="sel"></form:select>
 			<br /><br />
 			<b class="form-title">班 主&nbsp;&nbsp;任：</b><form:select path="teacher.teacherId" items="${teachers }"

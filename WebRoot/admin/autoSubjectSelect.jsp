@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<%@page import="com.taohan.online.exam.service.impl.CourseInfoServiceImpl"%>
-<%@page import="com.taohan.online.exam.po.CourseInfo"%>
+<%@page import="com.xiyou.online.exam.service.impl.CourseInfoServiceImpl"%>
+<%@page import="com.xiyou.online.exam.po.CourseInfo"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -42,20 +42,21 @@
 							<div class="col-sm-10">
 								<select id="slpk" class="selectpicker" name="courseId" id="courseId" data-live-search="true">
 									<option value="">不限</option>
-									<option value="1">语文</option>
-									<option value="2">数学</option>
-									<option value="3">英语</option>
+									<option value="1">数字信号处理</option>
+									<option value="2">信息论编码</option>
+									<option value="3">c语言</option>
+									<option value="4">模拟电子信息基础</option>
 								</select>
 							</div>
 						</div>
 						<div class="form-group">
-							 <label for="grade" class="col-sm-2 control-label">年级</label>
+							 <label for="grade" class="col-sm-2 control-label">专业</label>
 							<div class="col-sm-10">
 								<select id="slpk" class="selectpicker" name="gradeId" id="gradeId" data-live-search="true">
 									<option value="">不限</option>
-									<option value="1">高一</option>
-									<option value="2">高二</option>
-									<option value="3">高三</option>
+									<option value="1">通信与信息工程</option>
+									<option value="2">信息安全</option>
+									<option value="3">电子信息科学与技术</option>
 								</select>
 							</div>
 						</div>

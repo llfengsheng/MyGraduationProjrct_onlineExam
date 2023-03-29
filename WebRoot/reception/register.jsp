@@ -49,9 +49,9 @@
 							 <label for="class" class="col-sm-2 control-label">就读班级</label>
 							<div class="col-sm-10">
 								<select id="classId" class="selectpicker" name="classInfo.classId" id="class" data-live-search="true">
-									<option value="1">高一一班</option>
-									<option value="2">高二四班</option>
-									<option value="3">高三五班</option>
+									<option value="1">通工1501</option>
+									<option value="2">安全1501</option>
+									<option value="3">电科1501</option>
 								</select>
 							</div>
 						</div>
